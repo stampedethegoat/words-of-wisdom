@@ -1,32 +1,42 @@
 @import url('https://fonts.googleapis.com/css?family=Coda');
 
 html, body {
-    height      : 100%;
-    background  : linear-gradient(45deg,#101010,#003688);
-    font-family : 'Coda', sans-serif;
-    display     : grid;
+  overflow: hidden;
+  height      : 100%;
+  background  : linear-gradient(45deg,#101010,#003688);
+  font-family : 'Coda', sans-serif;
+  display     : grid;
+  color       : #e9fd00;
+}
+
+#time {
+  margin      : auto 20%;
+  font-size   : 24px;
+  text-align  : center;
+  line-height : 2em;
+  font-size   : 84px;
 }
 
 #quote {
-    margin      : auto 20%;
-    font-size   : 24px;
-    text-align  : center;
-    line-height : 2em;
-    color       : #e9fd00;
+  position   : absolute;
+  width      : 100%;
+  bottom     : 40px;
+  text-align : center;
+  font-size   : 24px;
 }
 
 .fadein {
-    animation-name     : fadein;
-    animation-duration : 2.5s;
+  animation-name     : fadein;
+  animation-duration : 2.5s;
 }
 
 @keyframes fadein {
-    0% {
-        opacity: 0;
-        transform: translateX(-20px);
-     }
-     100% {
-        opacity: 1;
-        transform: translateX(0);
-     }
+  0% {
+    opacity: 0;
+    transform: translateX(-20px);
+   }
+   100% {
+    opacity: 1;
+    transform: translateX(0);
+   }
 }
