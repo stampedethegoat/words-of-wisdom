@@ -15,7 +15,7 @@ const getQuote  = () => quotes[randomize(0, quotes.length - 1)];
 /* ------------------------------ */
 let date        = new Date();
 let hours12     = date => (date.getHours() + 24) % 12 || 12;
-let currentTime = hours12(date) + ":" + date.getMinutes();
+let currentTime = hours12(date) + ":" + (date.getMinutes() < 10 ? '0' :'' ) + date.getMinutes();
 
-document.querySelector('#quote').innerHTML = getQuote();
 document.querySelector('#time').innerHTML = currentTime;
+document.querySelector('#quote').innerHTML = getQuote();

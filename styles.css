@@ -9,20 +9,18 @@ html, body {
   color       : #e9fd00;
 }
 
-#time {
+#time-quote {
   margin      : auto 20%;
-  font-size   : 24px;
   text-align  : center;
   line-height : 2em;
-  font-size   : 84px;
 }
 
 #quote {
-  position   : absolute;
-  width      : 100%;
-  bottom     : 40px;
-  text-align : center;
-  font-size   : 24px;
+  font-size: 22px;
+}
+
+#time {
+  font-size: 96px;
 }
 
 .fadein {

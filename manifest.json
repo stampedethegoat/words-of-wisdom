@@ -1,6 +1,6 @@
 {
   "name"         : "Words of Wisdom",
-  "version"      : "1.4",
+  "version"      : "1.5.2",
   "description"  : "Compilation of words of wisdom",
   "permissions"  : ["activeTab", "declarativeContent", "storage", "tabs"],
   "chrome_url_overrides": {
